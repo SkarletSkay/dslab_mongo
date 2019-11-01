@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<body>
+
+	<ul>
+		{% for msg in messages %}
+
+        <div>{{ msg['author'] }}:</div>
+        <div>{{ msg['content'] }}</div>
+
+		{% endfor %}
+	</ul>
+
+<form method="POST">
+    <input type="text" name="User" placeholder="Username">
+	<input type="text" name="Message" placeholder="Write Here">
+	<input type="submit" value="Send">
+</form>
+</body>
