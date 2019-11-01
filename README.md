@@ -4,6 +4,8 @@ SE-01
 
 Screen 1: https://ibb.co/3Cr463D
 
+![Screenshot](ph1.jpg)
+
 rs.config()
 ```json 
 {
@@ -222,6 +224,8 @@ rs.status():
 ### Minus 1 VPS
 
 Screen 2: https://ibb.co/ssnWHNP
+
+![Screenshot](ph2.jpg)
 
 rs.config():
 ```json 
